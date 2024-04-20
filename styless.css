@@ -1,0 +1,70 @@
+    body{
+        background-image: url(hosbkg.jpg);
+    }
+    .left{
+    display: inline block;
+    top: 25px;
+    left: 9px;
+    position: absolute;
+}
+.left img{
+    width: 300px;
+    height: 150px;
+   ;
+
+}
+.right{
+    display:inline-block;
+    top: 15px;
+    right: 20px;
+    position: absolute;
+}
+.btn{
+    cursor: pointer;
+    color: black;
+    background-color: blue;
+    font-style:italic;
+}
+    .mid{
+        
+        margin:12px auto;
+        display: block;
+        width: 100%;
+    }
+    .right{
+        position: absolute;
+        display: block;
+        top: 10px;
+        right: 50px;
+    }
+    .btn{
+        cursor: pointer;
+        color: black;
+        background-color: gray;
+    font-style:italic;
+    }
+    .navbar{
+        display: block;
+        margin: 4px 500px;
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 4px;
+        font-size: 20px;
+    }
+    .navbar li a{
+        font-style: italic;
+        color: black;
+        text-decoration: none;
+        padding:3px;
+    }
+    .navbar li a:hover{
+        text-decoration:underline;
+        color:white;
+    }
+    .services{
+        margin: 180px 15px;
+    }
+    
+    
+    
